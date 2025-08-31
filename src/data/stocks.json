@@ -1,0 +1,22 @@
+[
+  {
+    "name": "MongoDB",
+    "units": "$",
+    "inf": true
+  },
+  {
+    "name": "PNC Spend",
+    "units": "$",
+    "value": 0.0
+  },
+  {
+    "name": "PNC Reserve",
+    "units": "$",
+    "value": 0.0
+  },
+  {
+    "name": "PNC Growth",
+    "units": "$",
+    "value": 0.0
+  }
+]

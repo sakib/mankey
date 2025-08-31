@@ -1,0 +1,23 @@
+[
+  {
+    "src_name": "MongoDB",
+    "dst_name": "PNC Spend",
+    "val": 1500,
+    "pct": 0.5,
+    "cadence": "bimonthly"
+  },
+  {
+    "src_name": "MongoDB",
+    "dst_name": "PNC Reserve",
+    "val": 2000,
+    "pct": 0.5,
+    "cadence": "bimonthly"
+  },
+  {
+    "src_name": "MongoDB",
+    "dst_name": "PNC Growth",
+    "val": 3500,
+    "pct": 0.5,
+    "cadence": "bimonthly"
+  }
+]
