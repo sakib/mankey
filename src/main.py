@@ -5,6 +5,13 @@ from pydantic import ValidationError
 from models import SankeyDiagram, System, Stock, Flow
 
 
+# NOT CAPTURED HERE INTENTIONALLY:
+# Sameen -> PNC Growth (More real estate)
+# PNC Reserve -> Shaan (Management)
+# Vanguard -> Vanguard (401k Growth)
+# Brokerage -> Brokerage (Investment Management)
+
+
 STOCKS_FILE = "src/data/stocks.json"
 FLOWS_FILE = "src/data/flows.json"
 
@@ -25,11 +32,9 @@ async def main() -> None:
 
   # build sankey diagram
   diagram = SankeyDiagram.from_system(system)
-  fig = diagram.figure()
-  print(fig)
-  fig.show()
 
   # display visualization
+  diagram.figure().show()
 
 
 if __name__ == "__main__":

@@ -2,4 +2,8 @@
 
 Money flow visualization tool
 
-![Monkey with Money](monkey-with-money.gif)
+![Monkey with Money](./money.gif)
+
+```
+uv run src/main.py
+```

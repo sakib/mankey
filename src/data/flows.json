@@ -1,23 +1,81 @@
 [
   {
     "src_name": "MongoDB",
+    "dst_name": "Government",
+    "val": 3235,
+    "label": "Taxes"
+  },
+  {
+    "src_name": "MongoDB",
     "dst_name": "PNC Spend",
-    "val": 1500,
-    "pct": 0.5,
-    "cadence": "bimonthly"
+    "val": 2500,
+    "label": "Wages"
   },
   {
     "src_name": "MongoDB",
     "dst_name": "PNC Reserve",
-    "val": 2000,
-    "pct": 0.5,
-    "cadence": "bimonthly"
+    "val": 4000,
+    "label": "Wages"
   },
   {
     "src_name": "MongoDB",
     "dst_name": "PNC Growth",
-    "val": 3500,
+    "val": 13000,
     "pct": 0.5,
-    "cadence": "bimonthly"
+    "label": "Wages"
+  },
+  {
+    "src_name": "MongoDB",
+    "dst_name": "E-Trade",
+    "val": 8333,
+    "label": "100k/yr Bonus/Stocks"
+  },
+  {
+    "src_name": "E-Trade",
+    "dst_name": "Brokerage",
+    "val": 8333,
+    "label": "Amortized Diversification (Stock Plan)"
+  },
+  {
+    "src_name": "310 Michaels Court",
+    "dst_name": "PNC Reserve",
+    "val": 3300,
+    "label": "Rent"
+  },
+  {
+    "src_name": "Government",
+    "dst_name": "PNC Spend",
+    "val": 900,
+    "label": "Mortgage Tax Deductions"
+  },
+  {
+    "src_name": "Government",
+    "dst_name": "Nonsense",
+    "val": 2540,
+    "label": "Wars"
+  },
+  {
+    "src_name": "PNC Reserve",
+    "dst_name": "3 Pace Drive",
+    "val": 4000,
+    "label": "Mortgage + Bills"
+  },
+  {
+    "src_name": "PNC Reserve",
+    "dst_name": "310 Michaels Court",
+    "val": 2700,
+    "label": "Mortgage + Tax + Bills"
+  },
+  {
+    "src_name": "PNC Growth",
+    "dst_name": "Brokerage",
+    "val": 2000,
+    "label": "Savings: Stocks"
+  },
+  {
+    "src_name": "PNC Growth",
+    "dst_name": "LIRP",
+    "val": 2000,
+    "label": "Savings: Life Insurance Retirement Plan"
   }
 ]

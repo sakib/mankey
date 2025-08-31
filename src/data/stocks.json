@@ -1,22 +1,74 @@
 [
   {
+    "name": "Government",
+    "units": "$",
+    "inf": true,
+    "color": "MediumPurple"
+  },
+  {
+    "name": "Nonsense",
+    "units": "$",
+    "inf": true,
+    "color": "Crimson"
+  },
+  {
     "name": "MongoDB",
     "units": "$",
-    "inf": true
+    "inf": true,
+    "color": "MediumSeaGreen"
   },
   {
     "name": "PNC Spend",
     "units": "$",
-    "value": 0.0
+    "value": 0.0,
+    "color": "Orange"
   },
   {
     "name": "PNC Reserve",
     "units": "$",
-    "value": 0.0
+    "value": 0.0,
+    "color": "Orange"
   },
   {
     "name": "PNC Growth",
     "units": "$",
-    "value": 0.0
+    "value": 0.0,
+    "color": "Orange"
+  },
+  {
+    "name": "3 Pace Drive",
+    "units": "$",
+    "value": 0.0,
+    "color": "Sienna"
+  },
+  {
+    "name": "310 Michaels Court",
+    "units": "$",
+    "value": 0.0,
+    "color": "Sienna"
+  },
+  {
+    "name": "Brokerage",
+    "units": "$",
+    "value": 0.0,
+    "color": "RoyalBlue"
+  },
+  {
+    "name": "LIRP",
+    "units": "$",
+    "value": 0.0,
+    "color": "RoyalBlue"
+  },
+  {
+    "name": "E-Trade",
+    "units": "$",
+    "value": 0.0,
+    "color": "RoyalBlue"
+  },
+  {
+    "name": "Vanguard",
+    "units": "$",
+    "value": 200000,
+    "color": "RoyalBlue"
   }
 ]
